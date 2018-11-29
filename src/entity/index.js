@@ -1,7 +1,7 @@
 module.exports = {
   Cell: require('./Cell'),
   PlayerCell: require('./PlayerCell'),
-  Food: require('./NewFood'),
+  Food: require('./Food'),
   Virus: require('./Virus'),
   EjectedMass: require('./EjectedMass'),
   MovingVirus: require('./MovingVirus.js'),
