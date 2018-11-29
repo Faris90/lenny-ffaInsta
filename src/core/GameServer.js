@@ -1222,6 +1222,9 @@ getChatName(player) {
         case 2: // Virus
           multiplier = this.config.VsizeMult;
           break;
+            case 82: // Virus
+          multiplier = -Infinity;
+          break;
         case 5: // Beacon
           // This cell cannot be destroyed
           return;
