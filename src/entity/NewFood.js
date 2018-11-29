@@ -6,7 +6,7 @@ function Virus() {
   Cell.apply(this, Array.prototype.slice.call(arguments));
 
   this.cellType = 82;
-  this.spiked = 1;
+ // this.spiked = 1;
   this.fed = 0;
   this.wobbly = 0; // wobbly effect
   this.isMotherCell = false; // Not to confuse bots
